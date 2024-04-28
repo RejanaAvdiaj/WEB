@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width,initial-scale=1.0">
+<title>Final Project</title>
+<link rel="stylesheet" href="style.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Kumbh+Sans:wght@400;500&family=PT+Serif:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+<nav class="navbar">
+<div class="navbar__container">
+<a href="/" id="navbar__logo">"Bread, salt and a white heart"</a> 
+<div class="navbar__toggle" id="mobile-menu">
+  <span class="bar"></span> <span class="bar"> </span>
+  <span class="bar"></span>
+</div>
+
+
+<ul class="navbar__menu"> 
+
+<li class="navbar__item">
+<a href="#" class="navbar__links"> 
+EXPLORE </a>
+</li>
+<li class="navbar__item">
+    <a href="#" class="navbar__links"> 
+    HISTORY </a>
+</li>
+<li class="navbar__item">
+    <a href="#" class="navbar__links"> 
+    GALLERY </a>
+</li>
+<li class="navbar__btn">
+    <button type="button" class="button" onclick="toggleForm()">
+        Sign Up
+    </button>
+</ul>
+    
+    <form action="/submit_form" id="signupForm" class="signup-form" style="display: none;">
+        <h3>Create an Account</h3>
+        <label for="email">Email:</label>
+        <input type="email" id="email" class="box" placeholder="Enter your email">
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" class="box" placeholder="Enter your password">
+
+        <input type="submit" value="Sign Up" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">Remember me</label>
+    </form>
+
+    <script>
+        function toggleForm() {
+            var form = document.getElementById("signupForm");
+            form.style.display = (form.style.display === "none" || form.style.display === "") ? "block" : "none";
+        }
+    </script>
+</li>
+</div>
+
+
+    </li>
+</ul>
+       </div>
+    </nav>
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content"> 
+                <h1>Albania </h1>
+                <h2>Enchanting Treasure </h2>
+                <p>What makes us special?</p>
+                <button class="main__btn" onclick="changeButtonText()">Get Started</button>
+   
+            </div>
+             
+            <div class="main__img--container">
+                <img src="./images/images/shqiperi.jpg" alt="flag" id="main__img"/>
+            </div>
+      </div>
+    </div>
+
+    <section class="EKSPLORO" id="EKSPLORO">
+
+        <h1 class="heading">
+            <span>E</span>
+            <span>X</span>
+            <span>P</span>
+            <span>L</span>
+            <span>O</span>
+            <span>R</span>
+            <span>E</span>
+            
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="./images/images/foto4.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> History </h3>
+                </div>
+            </div>
+        
+            <div class="box">
+                <img src="./images/images/foto3.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Geography </h3>
+                    
+                    
+                   
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/images/foto1.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Albania Lakes </h3>
+                   
+                
+                  
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/images/foto6.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Landscapes  </h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/images/foto7.webp" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Artisanal </h3>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/images/foto8.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Traditional Food </h3>
+                   
+                    
+                   
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="HISTORY" id="HISTORY">
+
+        <h1 class="heading">
+            <span>H</span>
+            <span>I</span>
+            <span>S</span>
+            <span>T</span>
+            <span>O</span>
+            <span>R</span>
+            <span>Y</span>
+            
+            
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+              
+                <h3 class="location">Where is Albania located?</h3>
+            
+                <p>
+                    Albania (Shqipëri or Shqipëria) officially the Republic of Albania, is a country in Southeast Europe. The country is located in the Balkans on the Adriatic and Ionian Seas within the Mediterranean Sea and shares land borders with Montenegro to the northwest, Kosovo to the northeast, North Macedonia to the east and Greece to the south. The country's landscapes range from rugged snow-capped mountains in the Albanian Alps and the Korab, Skanderbeg, Pindus and Ceraunian Mountains, to fertile lowland plains extending from the coasts of the Adriatic and Ionian seas. Tirana is the capital and largest city in the country, followed by Durrës, Vlorë, and Shkodër.
+                </p>    
+                </h3>
+                
+            </div>
+            <div class="box">
+               
+                <h3 class="history">History of Albania</h3>
+                    
+                    <p>
+                        The history of Albania is rich and complex, marked by its strategic location in the Balkans and the various civilizations that have influenced the region. In antiquity, it was inhabited by Illyrian tribes, and later became part of the Roman and Byzantine Empires. In the 15th century, the Ottoman Empire conquered Albania, and it remained under Ottoman rule for several centuries. The 20th century brought significant changes, including Albania's declaration of independence in 1912. During World War II, the country experienced occupation by Italy and later Germany, followed by communist rule under Enver Hoxha after the war. Albania isolated itself from the rest of the world during Hoxha's regime, which lasted until his death in 1985. The 1990s saw the end of communist rule, leading to a period of political and economic transformation. Today, Albania is a sovereign nation, striving for integration into European institutions while preserving its unique cultural heritage.
+                    </p>
+                
+                
+                
+            </div>
+          
+           
+            <div class="box">
+                
+                <h3 class="culture">Attributes of Albanian culture</h3>
+                
+                <p>
+                    Albanian culture is characterized by its rich history, diverse influences, and unique traditions. Here are some key attributes of Albanian culture:
+                    Hospitality, Family Values, Language, Religious Diversity,  Traditional Clothing,  Festivals and Celebrations, Kanun (Code of Honor), Cuisine.
+                </p>
+                
+                
+            </div>
+           
+
+        </div>
+
+    </section>
+
+    <section class="GALERIA" id="GALERIA">
+
+        <h1 class="heading">
+            <span>G</span>
+            <span>A</span>
+            <span>L</span>
+            <span>L</span>
+            <span>E</span>
+            <span>R</span>
+            <span>Y</span>
+            
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="./images/images/qytet1.jpg" alt="">
+                <div class="content">
+                    <h3>BERAT</h3>
+                    
+                    <a href="https://en.wikipedia.org/wiki/Berat" class="btn"onclick=window.open>See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/images/qytet2.jpg" alt="">
+                <div class="content">
+                    <h3>SARANDE</h3>
+                    
+                    <a href="https://en.wikipedia.org/wiki/Sarand%C3%AB" class="btn">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/images/qytet3.jpg" alt="">
+                <div class="content">
+                    <h3>TROPOJE</h3>
+                    
+                    <a href="https://en.wikipedia.org/wiki/Tropoj%C3%AB" class="btn">See more</a>
+                </div>
+                </div>
+
+            <div class="box">
+                <img src="./images/images/qytet4.jpg" alt="">
+                <div class="content">
+                    <h3>BUTRINT</h3>
+                    
+                    <a href="https://en.wikipedia.org/wiki/Butrint" class="btn">See more</a>
+                </div>
+            </div>
+           
+            </div>
+         
+              </div>
+
+              <section class="footer">
+
+                <div class="box-container1">
+
+                    
+                    
+                    <div class="box">
+                        <a href="#">HOME/</a>
+                        <a href="#">EXPLORE/</a>
+                        <a href="#">NEWS/</a>
+                        <a href="#">GALERY</a>
+                        
+                    </div>
+                    <div class="box-1">
+                        <h3>Follow me for every information you need!</h3>
+                        <a href="https://www.linkedin.com/in/rejana-avdiaj/">LinkedIn/</a>
+                        <a href="https://www.instagram.com/rejanaavdiaj/">Instagram/</a>
+                        <a href="https://www.facebook.com/home.php?ref=homescreenpwa">Facebook/</a>
+                        
+                    </div>
+
+                </div class="credit">
+
+                <h1 class="credit">Created By REJANA AVDIAJ | All rights reserved!</h1>
+<
+            </section>
+
+
+
+
+
+   
+ <script src="code.js"> </script>
+  </body>
+</html>
+
